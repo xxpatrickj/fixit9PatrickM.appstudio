@@ -1,5 +1,5 @@
 /*
-//question8:Optional B
+//8-B
 
 submit.onclick=function(){
   if (noun.value=="dog"||noun.value=="person"||noun.value=="banana"||noun.value=="flower"||noun.value=="light"){
@@ -7,14 +7,14 @@ submit.onclick=function(){
       if(verb.value=="run"||verb.value=="work"||verb.value=="swim"||verb.value=="drink"||verb.value=="study"){
         Story.value=(userName.value+" this is your story: A "+noun.value+" in Nebraska was arrested this morning after "+verb.value+"ing in front of a "+adj.value+" "+noun.value+". The perpetrator had a history of "+verb.value+"ing, but no one - not even her "+noun.value+" - ever imaginged she'd "+verb.value+" with a "+noun.value+".Even her "+noun.value+" was surprised. I always thought she was "+adj.value+", but I hever thought she'd do something like this. Either way, we imagine that after witnessing her "+verb.value+" with a "+adj.value+" "+noun.value+", there are probably a whole lot of "+noun.value+"s that are going to need therapy.")
       }else{
-        Story.value="You should enter the words we give."
+        Story.value="Try entering the words given."
       }
     }else{
-      Story.value="You should enter the words we give."
+      Story.value="Try entering the words given."
     }
         
   }else{
-    Story.value="You should enter the words we give."
+    Story.value="Try entering the words given."
   }
 }
 

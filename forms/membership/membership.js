@@ -1,23 +1,24 @@
 /*
+6-B
 var members = ["Mary","Sam","Joey","Paul","Mike","Char","Jenny","Kennedy","Kaden","Kurt","Anne"]
 
-function checkName(members,firstName){
-  for(i=0;i<members.length;i++){
+function checkName(members){
+  for(i=0;i<=members.length;i++){
        if(inptFirstName.value==members[i])
           return true
-       return false
+          else return false
        }
 }
 
 
 Submit.onclick=function(){
-  if (checkName(members,inptFirstName)==true){
-    Check.value="Your name is in the member list."
-  }else if (checkName(members,inptFirstName)==false){
+  if (checkName(members)==true){
+    Check.value='Your name is on the list!'
+  }else if (checkName(members)==false){
     members.push(inptFirstName.value)
-    Check.value="Your name is add to the member list."
+    Check.value='You have been added to the list!'
   }else{
-    Check.value="Something wrong with this app."
+    Check.value='An error has occurred'
   }
 }
 */

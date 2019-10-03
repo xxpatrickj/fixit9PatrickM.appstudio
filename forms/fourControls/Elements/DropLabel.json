@@ -17,7 +17,7 @@
   "fontWeight": "", 
   "height": "auto", 
   "hidden": "", 
-  "id": "DropLabel", 
+  "id": "dropLabel", 
   "labelStyle": "text", 
   "left": 15, 
   "mAll": "", 

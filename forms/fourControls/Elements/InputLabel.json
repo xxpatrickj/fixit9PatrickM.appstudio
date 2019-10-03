@@ -17,7 +17,7 @@
   "fontWeight": "", 
   "height": "auto", 
   "hidden": "", 
-  "id": "InputLabel", 
+  "id": "inputLabel", 
   "labelStyle": "text", 
   "left": 17, 
   "mAll": "", 
