@@ -1,4 +1,5 @@
 /*
+9-B
 button1.onclick=function(){
   buttonLabel.value=''
   dropLabel.value=''
